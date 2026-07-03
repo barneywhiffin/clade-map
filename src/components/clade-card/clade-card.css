@@ -13,3 +13,9 @@
 .clade-img {
     margin-top: 20px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .clade-card {
+    border: 2px solid white;
+  }
+}
