@@ -1,3 +1,11 @@
-p {
-    color: green;
+
+.clade-card {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 20px auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
 }
