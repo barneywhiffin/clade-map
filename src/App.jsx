@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <p>Hello World!</p>
+      <h1 style={{ textAlign: "center", color: "purple" }}>Clade Map</h1>
     </>
   )
 }
