@@ -4,7 +4,7 @@ import CladeCard from './components/clade-card/clade-card'
 const clade = {
     title: "Sarcopterygii",
     description: "'Lobe finned fish'",
-    img: "/src/assets/sarcopterygii.png"
+    img: "/src/assets/images/sarcopterygii.png"
 }
 
 function App() {
