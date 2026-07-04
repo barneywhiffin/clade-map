@@ -1,13 +1,12 @@
 import './clade-card.css'
-import Sarcopterygii from '/src/assets/sarcopterygii.png'
 
-function CladeCard() {
+function CladeCard(props) {
     return (
         <>
             <div className="clade-card">
-                <h3>Sarcopterygii</h3>
-                <p style={{fontStyle: "italic", marginTop: "10px"}}>'Lobe finned fish'</p>
-                <img className="clade-img" src={Sarcopterygii} width="200px" alt="A lobe finned fish" />
+                <h3>{props.title}</h3>
+                <p style={{fontStyle: "italic", marginTop: "10px"}}>{props.description}</p>
+                <img className="clade-img" src={props.img} width="200px" alt={`A picture of a ${props.description.slice(1, -1).toLowerCase()}`} />
             </div>
         </>
     );
