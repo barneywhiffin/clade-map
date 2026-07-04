@@ -10,5 +10,11 @@
         "description": "'True mammals'",
         "img": "/src/assets/images/mammal.jpg",
         "alt": "A capybara"
+    },
+    {
+        "title": "Sauropsida",
+        "description": "'Reptiles and birds'",
+        "img": "/src/assets/images/sauropsida.jpg",
+        "alt": "A tuatara"
     }
 ]
