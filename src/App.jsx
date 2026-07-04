@@ -1,18 +1,13 @@
 import './App.css'
 import CladeCard from './components/clade-card/clade-card'
-
-const clade = {
-    title: "Sarcopterygii",
-    description: "'Lobe finned fish'",
-    img: "/src/assets/images/sarcopterygii.png"
-}
+import Clade from '/src/assets/data/clades.json'
 
 function App() {
 
   return (
     <>
       <h1>Clade Map</h1>
-      <CladeCard title={clade.title} description={clade.description} img={clade.img} />
+      <CladeCard title={Clade.title} description={Clade.description} img={Clade.img} />
     </>
   )
 }
