@@ -1,5 +1,20 @@
-{
-    "title": "Sarcopterygii",
-    "description": "'Lobe finned fish'",
-    "img": "/src/assets/images/sarcopterygii.png"
-}
+[
+    {
+        "title": "Sarcopterygii",
+        "description": "'Lobe-finned fish'",
+        "img": "/src/assets/images/sarcopterygii.png",
+        "alt": "A panderichthys"
+    },
+    {
+        "title": "Mammalia",
+        "description": "'True mammals'",
+        "img": "/src/assets/images/mammal.jpg",
+        "alt": "A capybara"
+    },
+    {
+        "title": "Sauropsida",
+        "description": "'Reptiles and birds'",
+        "img": "/src/assets/images/sauropsida.jpg",
+        "alt": "A tuatara"
+    }
+]
